@@ -127,10 +127,10 @@ body::-webkit-scrollbar-track{
       height: 5rem;
     }
     .subtitle{
-      margin-left: 27%;
+      margin-left: 5px;
     }
     .header{
-      margin-left: 20px;
+      margin-left: 0;
     
     }
 
