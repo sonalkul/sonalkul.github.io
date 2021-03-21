@@ -176,7 +176,7 @@ body::-webkit-scrollbar-track{
 
   }
   
-/*   /* Large screens */
+ /* Large screens */
   @media only screen and (min-width: 600px) {
     .interesting {
       top: 0;
@@ -256,4 +256,4 @@ body::-webkit-scrollbar-track{
     .about{
       margin-left: 20%;
     }
-  } */
+  }
