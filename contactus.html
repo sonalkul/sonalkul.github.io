@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>GSPM - Contact</title>
+    <style>
+
+        </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="interesting">
+            <li class="navin"><a href="index.html" class="navlink"><span class="link-text">Home</span></a></li>
+            <li class="navin"><a href="about.html" class="navlink"><span class="link-text">About us</span></a></li>
+            <li class="navin"><a href="contactus.html" class="navlink"><span class="link-text">Contact Us</span></a>
+            </li>
+            <li class="navin"><a href="proj.html" class="navlink"><span class="link-text">Our Projects</span></a></li>
+            <li class="navin"><a href="#" class="navlink"><span class="link-text">Client Reviews</span></a></li>
+            <li class="navin"><a href="https://github.com/arjunkuls" class="navlink"><span class="link-text">Created by AK</span></a></li>
+        </ul>
+    </nav>
+    <div class="main"><div class="topspace">
+      <br/><br/>
+          <span class="header">S O N A L  K U L S H R E S H T H A</span><br/><br/>
+          <span class="subtitle">G.S. Project Management (India) Pvt. Ltd.</span>
+      
+  </div><br><br>
+    <div class="main-form">
+        <form>
+          
+          
+            <div class="container">
+              <div class="lab"><label for="userName" class="lab"><b>Please Enter Your Name</b></label></div>
+              <input type="text" placeholder="Enter name" id="userName" required>
+          
+              <div class="lab"><label for="useremail" class="lab"><b>Please enter your email</b></label></div>
+              <input type="text" placeholder="Enter email" id="useremail" required>
+                  
+
+              <div class="lab"><label for="usermsg" class="lab"><b>Please enter some details</b></label></div>
+              <input type="text" placeholder="Enter message here" id="usermsg" required>
+
+
+
+
+              <button id="addBtn">Send</button>
+            </div></div>
+          
+          </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyBRpVOxcP7kHGKnoaf4ee_ZU_Sa8SAEcuw",
+                authDomain: "sonalkulshreshtha-in.firebaseapp.com",
+                databaseURL: "https://sonalkulshreshtha-in.firebaseio.com",
+                projectId: "sonalkulshreshtha-in",
+                storageBucket: "sonalkulshreshtha-in.appspot.com",
+                messagingSenderId: "127423951919",
+                appId: "1:127423951919:web:283877df6b9c6f5a2c82da"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
+        <script src="contactus.js"></script>
+    </div>
+</body>
+
+</html>

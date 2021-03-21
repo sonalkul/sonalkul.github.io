@@ -1,0 +1,80 @@
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.5;
+    transition: opacity 100ms ease-in-out
+}
+
+button:hover {
+    opacity: 1;
+    font-size: larger;
+}
+
+button:disabled{
+    opacity: 0.25;
+    
+}
+
+
+.container {
+    padding: 16px;
+}
+
+.lab{
+    transition: all 500ms ease-in-out;
+}
+
+label{
+    transition: 1s ease-in-out;
+}
+
+input:focus{
+    transform: scale(1.1);
+}
+
+.lab:hover{
+    transform: rotate(180deg);
+}
+
+
+.main-form{
+    width: 70vw;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .main-form{
+    width: 70vw;
+    margin-left: 14%;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 600px){
+    .main-form{
+        margin-left: 15%;
+    }
+}
