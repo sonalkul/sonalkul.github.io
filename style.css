@@ -121,6 +121,11 @@ body::-webkit-scrollbar-track{
 }
 
 @media only screen and (max-width: 600px) {
+    .link-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
     .navbar {
       top: 0;
       width: 100vw;
