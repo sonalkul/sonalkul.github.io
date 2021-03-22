@@ -24,7 +24,7 @@ body::-webkit-scrollbar-track{
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: black;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -59,41 +59,6 @@ div.content {
 
 .AboutImg:hover{
   transform: scale(1.15) translateY(-10%);
-}
-
-.interesting{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    opacity: 0.6;
-}
-
-
-.navin{
-    text-decoration: none;
-    color: black;
-    margin-left: 1rem;
-
-}
-
-.navlink{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.link-text{
-    display: none;
-    margin-left: 1rem;
-    opacity: 0.6;
-    color: white;
-}
-
-.navbar:hover .link-text{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 
@@ -146,11 +111,6 @@ div.content {
   margin-top: 0.5rem;
 }
 
-
-.navin:last-child:hover{
-  text-decoration: underline;
-}
-
 @media only screen and (max-width: 600px) {
       .sidebar {
     width: 100%;
@@ -180,26 +140,11 @@ div.content {
   .header{
     letter-spacing: 0.2rem;
   }
-    .interesting {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-evenly;
-      margin-top: 2rem;
-    }
-  
+
     .main {
       margin-top: 20%;
     }
-    .navbar:hover{
-        opacity: 1;
-    }
-    .link-text:hover{
-        opacity: 1;
-    }
-    .link-text{
-      opacity: 1;
-      display: initial;
-    }
+
     *{
       font-size: 15px;
     }
@@ -216,16 +161,6 @@ div.content {
   
   /* Large screens */
   @media only screen and (min-width: 600px) {
-    .interesting {
-      top: 0;
-      width: 5rem;
-      height: 100vh;
-      flex-direction: column;
-    }
-    .navin:last-child{
-  margin-top: 40vh;
-
-}
 
 .aboutHeader:hover{
   /* transform: scaleX(1.5); */
@@ -272,21 +207,6 @@ div.content {
       letter-spacing: 0.6rem;
     }
   
-    .navbar:hover {
-      width: 10rem;
-      align-items: center;
-      opacity: 1;
-    }
-  
-    .navbar:hover .link-text {
-      display: flex;
-    }
-    .navin{
-        margin-top: 2rem;
-    }
-    .link-text:hover{
-        opacity: 1;
-    }
     .goright{
       display: block;
     }
