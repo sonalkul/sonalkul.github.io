@@ -30,14 +30,7 @@ body::-webkit-scrollbar-track{
   transform: scale(1.15) translateY(-10%);
 }
 
-.interesting{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    opacity: 0.6;
-}
+
 
 
 .navin{
@@ -193,6 +186,14 @@ body::-webkit-scrollbar-track{
     .navin:last-child{
   margin-top: 40vh;
 
+}
+      .interesting{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
 }
       .navbar:hover .link-text{
     display: flex;
