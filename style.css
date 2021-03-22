@@ -48,7 +48,6 @@ body::-webkit-scrollbar-track{
 .link-text{
     display: none;
     font-size: small;
-    margin-left: 1rem;
     opacity: 0.6;
     color: white;
 }
@@ -115,6 +114,8 @@ body::-webkit-scrollbar-track{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    opacity: 1;
+    display: initial;
     }
     .navbar {
       top: 0;
@@ -150,16 +151,6 @@ body::-webkit-scrollbar-track{
     .main {
       margin-top: 20%;
     }
-    .navbar:hover{
-        opacity: 1;
-    }
-    .link-text:hover{
-        opacity: 1;
-    }
-    .link-text{
-      opacity: 1;
-      display: initial;
-    }
     *{
       font-size: 15px;
     }
@@ -181,23 +172,23 @@ body::-webkit-scrollbar-track{
       width: 5rem;
       height: 100vh;
       flex-direction: column;
-    }
-    .navin:last-child{
-  margin-top: 40vh;
-
-}
-      .interesting{
-    list-style: none;
+            list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     opacity: 0.6;
+    }
+    .navin:last-child{
+  margin-top: 40vh;
+
 }
+
       .navbar:hover .link-text{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+              margin-left: 1rem;
 }
 
 .aboutHeader:hover{
