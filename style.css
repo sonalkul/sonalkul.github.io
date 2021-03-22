@@ -172,11 +172,11 @@ div.content {
   transition: 100ms ease-in-out;
 }
 
-.content{
+.text{
   transition: 200ms ease-in-out;
 }
 
-.content:hover{
+.text:hover{
   transform: skew(2deg);
 }
 
