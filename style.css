@@ -40,7 +40,7 @@ body::-webkit-scrollbar-track{
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4CAF50;
+  background-color: white;
   color: white;
 }
 
