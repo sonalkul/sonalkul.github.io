@@ -30,7 +30,14 @@ body::-webkit-scrollbar-track{
   transform: scale(1.15) translateY(-10%);
 }
 
-
+.interesting{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+}
 
 
 .navin{
@@ -47,12 +54,16 @@ body::-webkit-scrollbar-track{
 
 .link-text{
     display: none;
-    font-size: small;
+    margin-left: 1rem;
     opacity: 0.6;
     color: white;
 }
 
-
+.navbar:hover .link-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 
 .subtitle{
@@ -110,20 +121,10 @@ body::-webkit-scrollbar-track{
 }
 
 @media only screen and (max-width: 600px) {
-    .link-text{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    opacity: 1;
-    display: initial;
-    }
     .navbar {
       top: 0;
       width: 100vw;
       height: 5rem;
-      display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     }
     .subtitle{
       margin-left: 15%;
@@ -132,7 +133,6 @@ body::-webkit-scrollbar-track{
       margin-left: 10%;
     
     }
-    
 
     .homeImg{
         width: 90%;
@@ -146,10 +146,21 @@ body::-webkit-scrollbar-track{
       flex-direction: row;
       align-items: center;
       justify-content: space-evenly;
+      margin-top: 2rem;
     }
   
     .main {
       margin-top: 20%;
+    }
+    .navbar:hover{
+        opacity: 1;
+    }
+    .link-text:hover{
+        opacity: 1;
+    }
+    .link-text{
+      opacity: 1;
+      display: initial;
     }
     *{
       font-size: 15px;
@@ -165,30 +176,17 @@ body::-webkit-scrollbar-track{
 
   }
   
- /* Large screens */
+  /* Large screens */
   @media only screen and (min-width: 600px) {
     .interesting {
       top: 0;
       width: 5rem;
       height: 100vh;
       flex-direction: column;
-            list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    opacity: 0.6;
     }
     .navin:last-child{
   margin-top: 40vh;
 
-}
-
-      .navbar:hover .link-text{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-              margin-left: 1rem;
 }
 
 .aboutHeader:hover{
