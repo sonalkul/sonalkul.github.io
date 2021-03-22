@@ -59,11 +59,7 @@ body::-webkit-scrollbar-track{
     color: white;
 }
 
-.navbar:hover .link-text{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
+
 
 
 .subtitle{
@@ -130,6 +126,9 @@ body::-webkit-scrollbar-track{
       top: 0;
       width: 100vw;
       height: 5rem;
+      display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     }
     .subtitle{
       margin-left: 15%;
@@ -138,6 +137,7 @@ body::-webkit-scrollbar-track{
       margin-left: 10%;
     
     }
+    
 
     .homeImg{
         width: 90%;
@@ -192,6 +192,11 @@ body::-webkit-scrollbar-track{
     .navin:last-child{
   margin-top: 40vh;
 
+}
+      .navbar:hover .link-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .aboutHeader:hover{
