@@ -33,14 +33,14 @@ body::-webkit-scrollbar-track{
 /* Sidebar links */
 .sidebar a {
   display: block;
-  color: black;
+  color: gray;
   padding: 16px;
   text-decoration: none;
 }
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: white;
+  background-color: black;
   color: white;
 }
 
