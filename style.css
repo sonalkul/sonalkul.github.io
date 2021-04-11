@@ -223,12 +223,9 @@ div.content {
   }
 }
 @media screen and (max-width: 400px){
-*{
-    font-size: 15px;
-    }
     .header{
-        margin-left: 10%;
-        font-size: 14px;
+        margin-left: 7%;
+        font-size: 12px;
     }
     .subtitle{
         margin-left: 13%;
