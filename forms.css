@@ -55,8 +55,11 @@ input:focus{
 
 
 .main-form{
-    width: 70vw;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content:center;
+    margin-top: 10px
 }
 
 
