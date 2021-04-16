@@ -10,6 +10,7 @@ const database = firebase.database();
 
 addBtn.addEventListener('click', (e) => {
     e.preventDefault();
+    alert("Message send successful!");
     userid = document.getElementById("userName").value;
     email = document.getElementById("useremail").value;
     msg = document.getElementById("usermsg").value
