@@ -58,8 +58,11 @@ input:focus{
     width: 100%;
     display: flex;
     align-items: center;
-    align-content:center;
-    margin-top: 10px
+    justify-content: center;
+}
+.ContactForm{
+    width: 50vw;
+    text-align: center;
 }
 
 
@@ -69,15 +72,6 @@ input:focus{
         display: block;
         float: none;
     }
-    .main-form{
-    width: 70vw;
-    margin-left: 14%;
-    text-align: center;
-}
+
 }
 
-@media screen and (min-width: 600px){
-    .main-form{
-        margin-left: 15%;
-    }
-}
