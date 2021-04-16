@@ -1,8 +1,12 @@
 .main{
     
     height: 95vh;
-
-    
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 body{
@@ -64,6 +68,10 @@ div.content {
 
 .subtitle{
   font-size: small;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .goright{
@@ -124,13 +132,7 @@ div.content {
       width: 100vw;
       height: 5rem;
     }
-    .subtitle{
-      margin-left: 15%;
-    }
-    .header{
-      margin-left: 7%;
-    
-    }
+
 
     .homeImg{
         width: 90%;
@@ -193,19 +195,12 @@ div.content {
       width: 70%;
   height: 70%;
 }
-    .header{
-      width: 100%,
-      display: flex,
-      justify-content: center,
-      align-content: center,
+
     
-    }
     .main{
       margin-left: 6rem;
     }
-    .subtitle{
-      margin-left: 40%;
-    }
+ 
     .header{
       letter-spacing: 0.6rem;
     }
@@ -227,12 +222,11 @@ div.content {
 }
 @media screen and (max-width: 400px){
     .header{
-        margin-left: 7%;
         font-size: 12px;
     }
     .subtitle{
-        margin-left: 13%;
         font-size: 8px;
     }
     
 }
+
